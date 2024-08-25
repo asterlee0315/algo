@@ -14,6 +14,7 @@ class Node{
 	String data;
 	Node prev;
 	Node next;
+}
 	
 class DoublyLinkedList{
 	Node head;

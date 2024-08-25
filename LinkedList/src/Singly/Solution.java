@@ -25,8 +25,9 @@ public class Solution {
 				return;
 			}
 			// 새 노드 생성
-			Node newNode = new Node();
-			newNode.data = data;
+			Node newNode = new Node(data);
+			newNode.data=data;
+					
 			
 			// 삽입할 위치 앞에 있는 노드 찾기
 			Node curr = head;
