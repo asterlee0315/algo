@@ -52,7 +52,7 @@ class DoublyLinkedList{
 	 newNode.next=curr.next;
 	 newNode.prev = curr;
 	 
-	 //기존 노드 연결 재구성
+	 //기존 노드 연결 재구성 // curr 입장에서 생각하기
 	 curr.next.prev = newNode;
 	 curr.next = newNode;
 	 
