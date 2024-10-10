@@ -33,7 +33,7 @@ public class Solution {
 			
 			 for (int i = 0; i < w; i++) {
 	                for (int j = 0; j < h; j++) {
-	                    if (arr[i][j] ==0 || arr2[i][j])
+	                    if (arr[i][j]==0 || arr2[i][j])
 	                    continue;
 	                    else{
 	                        // 새로운 섬 발견
@@ -44,11 +44,7 @@ public class Solution {
 //	                        island++;
 	                    }
 	                }
-	            }
-
-			
-			
-		
+	            }		
 				System.out.println("#"+tc+" "+island);
 			}
 		}// ende des tc
