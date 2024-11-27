@@ -39,8 +39,8 @@ public class Solution {
 	                        // 새로운 섬 발견
 	                    	System.out.print(i);
 	                    	System.out.println(j);
-	                    	island++;
 	                        dfs(i, j);
+	                        island++;
 //	                        island++;
 	                    }
 	                }
